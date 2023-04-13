@@ -1,0 +1,133 @@
+body {
+    color: black;
+    background-color: rgb(71, 71, 71);
+    filter: grayscale(1);
+}
+
+html {
+    font-size: 10.5px;
+}
+
+div {
+    box-sizing: border-box;
+
+}
+
+#barra {
+    margin-right: 15rem;
+}
+
+#barra2 {
+    margin-left: 15rem;
+}
+
+#barraFix {
+    display: flex;
+    justify-content: center;
+}
+
+#barraestilo {
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 13rem;
+    height: 63.6rem;
+    border-radius: 1.5rem;
+}
+
+#horario {
+    margin-top: 7.5rem;
+}
+
+#horararioImg {
+    width: 70rem;
+}
+
+#classroom {
+    width: 10rem;
+    height: 10rem;
+    margin-top: 10rem;
+    padding-top: 1.5rem;
+}
+
+#moodle {
+    width: 10rem;
+    height: 10rem;
+    margin-top: 3rem;
+}
+
+#gmail {
+    width: 10rem;
+    height: 10rem;
+    margin-top: 3rem;
+}
+
+#keep {
+    width: 10rem;
+    height: 10rem;
+    margin-top: 3rem;
+}
+
+#sigad {
+    width: 10rem;
+    height: 10rem;
+    margin-top: 3rem;
+}
+
+#logos {
+    width: 10rem;
+}
+
+#barraestilo2 {
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 13rem;
+    height: 63.6rem;
+    border-radius: 1.5rem;
+}
+
+#carpeta1 {
+    width: 10rem;
+    height: 10rem;
+    margin-top: 10rem;
+    padding-top: 1.5rem;
+}
+
+#carpeta2 {
+    width: 10rem;
+    height: 10rem;
+    margin-top: 3.9rem;
+}
+
+#carpeta3 {
+    width: 10rem;
+    height: 10rem;
+    margin-top: 2.6rem;
+}
+
+#carpeta4 {
+    width: 10rem;
+    height: 10rem;
+    margin-top: 2.6rem;
+}
+
+#carpeta5 {
+    width: 10rem;
+    height: 10rem;
+    margin-top: 2.6rem;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 1130px) {
+    html {
+        font-size: 7px;
+    }
+}
+
+@media only screen and (min-device-width : 1131px) and (max-device-width : 1320px) {
+    html {
+        font-size: 9px;
+    }
+}
+
+@media only screen and (min-device-width : 1321px){
+    html {
+        font-size: 10.5px;
+    }
+}
